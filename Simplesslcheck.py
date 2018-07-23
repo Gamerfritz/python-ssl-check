@@ -6,7 +6,10 @@ import datetime
 import sys
 
 class Simplesslcheck:
-        with open("C:/tmp/items.txt", "r") as f:
+
+	file = "C:/tmp/items.txt"
+
+        with open(file, "r") as f:
             for line in f:
                 server = line.split(",")[0]
                 port = line.split(",")[1]
