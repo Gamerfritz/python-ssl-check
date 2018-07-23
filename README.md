@@ -1,6 +1,5 @@
 # python-ssl-check
-Simple Python SSL Check
-Check multiple SSL certificates.
+Simple python script to check multiple SSL certificate expiration dates.
 
 Add all webservices you need to check in a text file like:<br>
 <code>adress,port</code><br>
